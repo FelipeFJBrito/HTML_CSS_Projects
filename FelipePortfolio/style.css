@@ -61,7 +61,7 @@
 
 .box{
     width: 100%;
-    box-shadow: 6px 6px 6px #888;
+    box-shadow: 6px 6px 2em rgb(128, 128, 128);
 }
 .about-me-title{
     color: black;
@@ -73,9 +73,12 @@
     margin-top: 20px;
     font-size: 20px;
     font-family: 'Roboto', sans-serif;
+    padding-left: 10px;
 }
 .about-me-highlights{
     margin-top: 10%;
+    padding-left: 10px;
+    font-family: 'Roboto', sans-serif;
 }
 .about-me-highlights-text{
     font-size: 20px;
@@ -86,6 +89,7 @@
 }
 /*-----------------------*/
 
+/*Skills*/
 .skills{
     padding: 100px 0;
     text-align: center;
@@ -155,13 +159,13 @@
     width: 60%;
 }
 .skills-right-content .skills-bars .java::before{
-    width: 60%;
+    width: 40%;
 }
 .skills-right-content .skills-bars .mysql::before{
-    width: 60%;
+    width: 30%;
 }
 .skills-right-content .skills-bars .html::before{
-    width: 60%;
+    width: 40%;
 }
 /*Resume button*/
 .project{
