@@ -21,7 +21,7 @@ $(document).ready(function(){
     });
 
     var typed = new Typed(".lead", {
-        strings:["Software Develop", "Computer Engineering"],
+        strings:["Software Develop ", "Computer Engineering"],
         typeSpeed:90,
         backSpeed:70,
         loop:true
